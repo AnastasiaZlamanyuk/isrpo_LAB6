@@ -6,49 +6,59 @@
     <title>Document</title>
   </head>
   <body>
-    <a href="#generation">Поколения ЭВМ</a>
-    <div>
-      <h2>История ЭВМ</h2>
-      <p>
-        Первые <span>электронные вычислительные машины</span> появились в
-        середине XX века.
-      </p>
-    </div>
-    <div>
-      <p style="background-color: green">
-        Тег <span style="background-color: yellow">span</span> используется для
-        выделения части текста внутри строки.
-      </p>
-    </div>
-    <p><strong>ЭВМ</strong> — это электронная вычислительная машина.
-        <br><br><strong>Важно:</strong> первые ЭВМ занимали целые помещения
-        <br><br><i>Курсивный текст</i> и <em>логически выделенный текст.</em>
-        <br><br><s>Устаревшая информация</s>
-        <br><br><u>Подчёркнутый текст</u>
-        <br><br>Формула воды: H<sub>2</sub>O
-        <br><br>Степень числа: 2<sup>3</sup> = 8
-        <br><br><small>Мелкий текст для примечаний</small>
-        <br><br><mark>Выделенный важный фрагмент</mark>
-        <br><br>Первая строка
-        <br>Вторая строка
-        <hr>Пример кода:
-        <br><br><code>&lt;h1&gt;История ЭВМ&lt;/h1&gt;</code>
-    </p>
-    <a href="info.html">
-        <button>Перейти к истории ЭВМ</button>
-    </a>
-    <hr>
-    <h2 id="generation">Поколения ЭВМ</h2>
-    <p>Описание поколений электронных вычислительных машин.</p>
-    <a href="../README.md" download="">
-        Скачать описание лабораторной
-    </a>
-    <br>
-    <a href="mailto:example@yandex.ru">
-        Написать письмо
-    </a>
-    <a href="tel:+7777777777">
-        Позвонить
-    </a>
+    <header>
+      <h1>История развития ЭВМ</h1>
+    </header>
+    <nav>
+      <a href="#gen2">Поколения</a>
+      <a href="media.html">Медиа</a>
+      <a href="forms.html">Формы </a>
+      <a href="vector.html" target="_blank">SVG</a>
+    </nav>
+    <main>
+      <section id="gen1">
+        <h2>Первое поколение ЭВМ</h2>
+        <p>Пример якорной ссылки и текстового блока.</p>
+        <blockquote cite="https://ru.wikipedia.org/wiki/ЭВМ">
+          ЭВМ первого поколения занимали целые помещения.
+        </blockquote>
+        <cite>Источник: Википедия</cite>
+        <br /><br />
+        <a href="mailto:example@yandex.ru">Написать письмо </a>
+        <a href="tel:+777777777">Позвонить</a>
+        <button>Кнопка</button>
+      </section>
+      <aside>
+        <h3>Фото</h3>
+        <img
+          src="img/computer_generation_1.jpg"
+          alt="1 поколение ЭВМ"
+          height="150"
+        />
+      </aside>
+      <section id="gen2">
+        <h2>Второе поколение ЭВМ</h2>
+        <p>Пример якорной ссылки и текстового блока.</p>
+        <blockquote cite="https://ru.wikipedia.org/wiki/ЭВМ">
+          Во втором поколении ЭВМ появились ОС.
+        </blockquote>
+        <cite>Источник: Википедия</cite>
+        <br /><br />
+        <a href="mailto:example@yandex.ru">Написать письмо </a>
+        <a href="tel:+777777777">Позвонить</a>
+        <button>Кнопка</button>
+      </section>
+      <aside>
+        <h3>Фото</h3>
+        <img
+          src="img/computer_generation_2.jpg"
+          alt="2 поколение ЭВМ"
+          height="150"
+        />
+      </aside>
+    </main>
+    <footer>
+      <p title="Подсказка">Лабораторная работа №6 · HTML + CSS</p>
+    </footer>
   </body>
 </html>
